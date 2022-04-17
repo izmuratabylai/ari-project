@@ -34,7 +34,7 @@ const Sidebar = () => {
   }
 
   return (
-    <div className="sidebar fixed">
+    <div className="sidebar rel">
       <a href="#" className="logo bl">
         <img className="bl" src={logo} alt="logo_img" />
       </a>
