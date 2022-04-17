@@ -6,26 +6,26 @@ const HomePage = () => {
   const [popularCourse, setPopularCourse] = useState([
     {
       ID: 1,
-      title: "How to learn oranic Chemisty in 80 min",
+      title: "Органикалық химия еспетерін шешу жолдары",
       tutor: {
         ID: 1,
-        name: "Arailym Kuanishbek",
+        name: "Арайлым Қуанышбек",
         username: "@arailymkuainshbek",
         dp: "https://placeimg.com/100/100/people?tutor-" + 1,
       },
-      duration: "82 min",
+      duration: "6 сағат",
       poster: Course1,
     },
     {
       ID: 2,
-      title: "How to learn Physics in 60 minutes",
+      title: "Жалпы физика курсы",
       tutor: {
         ID: 2,
-        name: "Abylai Izmuartov",
+        name: "Абылай Измуратов",
         username: "@izmuratovkz01",
         dp: "https://placeimg.com/100/100/people?tutor-" + 3,
       },
-      duration: "60 min",
+      duration: "12 сағат",
       poster: Courese2,
     },
   ]);
@@ -33,20 +33,20 @@ const HomePage = () => {
   const [topTutors, setTopTutors] = useState([
     {
       ID: 1,
-      name: "Arailym Kuanishbek",
+      name: "Арайлым Қуанышбек",
       username: "@arailymkuainshbek",
       dp: "https://placeimg.com/100/100/people?tutor-" + 1,
     },
 
     {
       ID: 2,
-      name: "Abylai Izmuartov",
+      name: "Aбылай Измуратов",
       username: "@izmuratovkz01",
       dp: "https://placeimg.com/100/100/people?tutor-" + 2,
     },
     {
       ID: 3,
-      name: "Suenish Turaganbaev",
+      name: "Сүйеніш Тұрғанбаев",
       username: "@suenishthebestone",
       dp: "https://placeimg.com/100/100/people?tutor-" + 3,
     },
@@ -80,7 +80,7 @@ const HomePage = () => {
   //live tutors list
   var tutorsList = [];
 
-  for (let i = 0; i < 8; i++) {
+  for (let i = 0; i < 5; i++) {
     tutorsList.push(
       <button className="tutor rel " key={"tutor-live" + i}>
         <img
@@ -138,7 +138,7 @@ const HomePage = () => {
       {/*Tutors live Now*/}
       <div className="section rel">
         <h2 className="title s24 fontb">
-          Streaming <span className="fontn">Now</span>
+          Қазір <span className="fontn">эфирде</span>
           <div className="tutors rel flex">{tutorsList}</div>
         </h2>
       </div>
@@ -146,7 +146,7 @@ const HomePage = () => {
       {/*Popular courses*/}
       <div className="section section-b rel">
         <h2 className="title s24 fontb">
-          Popular <span className="fontn">this week</span>
+          Рейтингі жоғары <span className="fontn">курстар</span>
           <div className="courses rel flex">{courseList}</div>
         </h2>
       </div>
@@ -154,7 +154,7 @@ const HomePage = () => {
       {/*Top Tutors*/}
       <div className="section rel">
         <h2 className="title s24 fontb">
-          Top tutors <span className="fontn"></span>
+          Рейтингі жоғары менторлар <span className="fontn"></span>
           <div className="top-tutors tutors rel flex">{topTutorsList}</div>
         </h2>
       </div>

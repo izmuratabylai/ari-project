@@ -76,3 +76,15 @@ button{
 .rel{
     position: relative;
 }
+
+select,input,textarea{
+outline: none;
+}
+.h1{
+    color: #ea5252;
+    
+}
+.h2{
+    margin-top: 6px;
+    color: #06e9e2;
+}

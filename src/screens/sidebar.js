@@ -7,10 +7,10 @@ import {ReactComponent as ShielIcon } from '../assets/shield-svgrepo-com.svg'
 
 const Sidebar = () => {
   const [nav, setNav] = useState([
-    { label: "Home", icon: "icon-home", slug: "/" },
-    { label: "Discover", icon: "icon-ul", slug: "discover" },
-    { label: "Categories", icon: "icon-tag", slug: "/categories" },
-    { label: "My  courses", icon: "icon-brief", slug: "/my-courses" },
+    { label: "Бастапқы бет", icon: "icon-home", slug: "/" },
+    { label: "Анықтамалық", icon: "icon-ul", slug: "discover" },
+    { label: "Үйрену", icon: "icon-tag", slug: "/categories" },
+    { label: "Менің курстарым", icon: "icon-brief", slug: "/my-courses" },
   ]);
 
   const [currentPage, setCurrentPage] = useState("/");
@@ -42,9 +42,9 @@ const Sidebar = () => {
 
       <div className="updated-course flex aic">
         <BrightIcon className="icon-lamp-bright ico cff s24 svgIcon" />
-        <div className="lbl s15 c333 fontb">
-          Updated courses
-          <h2 className="author s13 c777">by ARI</h2>
+        <div className="lbl s15 c333 fontb new__courses">
+          Жаңа курстар
+          <h2 className="author s13 c777"></h2>
         </div>
       </div>
 
@@ -52,12 +52,12 @@ const Sidebar = () => {
         <div className="stats-box aic jic points flex">
           <ShielIcon className="ico ico-points s24 icon-shield svgIcon" />
           <h2 className="val s15 c333 fontb">18 000</h2>
-          <h2 className="lbl s13 c777">points</h2>
+          <h2 className="lbl s13 c777">балл</h2>
         </div>
         <div className="stats-box aic jic flex">
           <BatteryIcon className="ico ico-battery s24 icon-battery-90 svgIcon" />
           <h2 className="val s15 c333 fontb">43.5%</h2>
-          <h2 className="lbl s13 c777">complete</h2>
+          <h2 className="lbl s13 c777">аяқталды</h2>
         </div>
       </div>
 
