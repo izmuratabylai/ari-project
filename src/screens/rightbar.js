@@ -25,7 +25,7 @@ const Rightbar = () => {
         </h2>
         <div className="special-offer rel flex">
           <div className="meta">
-            <h2 className="h1 s20 fontb">Алдғы айда басталады!</h2>
+            <h2 className="h1 s20 fontb">Алдағы айда басталады!</h2>
             <h2 className="h2 s15 fontb">12.12.2022 дейін тіркеліп үлгер</h2>
             <button className="s15 fontb">learn More</button>
           </div>

@@ -88,3 +88,8 @@ outline: none;
     margin-top: 6px;
     color: #06e9e2;
 }
+.ctrlbtn{
+    padding: 10px;
+  
+    cursor: pointer;
+}
