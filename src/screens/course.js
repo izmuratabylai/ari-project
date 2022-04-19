@@ -29,17 +29,17 @@ const CoursePage = () => {
     videos: [
       {
         ID: 1,
-        title: "Introduction",
+        title: "Кіріспе",
         duration: "2 hours",
       },
       {
         ID: 2,
-        title: "Basics",
+        title: "Негізгі бөлім",
         duration: "2 hours",
       },
       {
         ID: 3,
-        title: "Review",
+        title: "Қорытынды",
         duration: "2 hours",
       },
     ],
@@ -83,7 +83,7 @@ const CoursePage = () => {
 
         <div className="section section-b rel">
           <h2 className="title s24 fontb">
-            Course Achivments <span className="fontn"></span>
+            Жетістіктер <span className="fontn"></span>
             <div className="course-stats flex">
               <div className="stats-box   points flex">
                 <ShielIcon className="ico ico-points s24 icon-shield svgIcon" />
@@ -106,7 +106,7 @@ const CoursePage = () => {
 
         <div className="section section-b rel">
           <h2 className="title s24 fontb">
-            Course Details <span className="fontn"></span>
+            Курс құрылымы <span className="fontn"></span>
             <div className="course-videos aic jic flex">{courseVideos}</div>
           </h2>
         </div>
